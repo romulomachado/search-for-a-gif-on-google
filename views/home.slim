@@ -8,15 +8,17 @@ html lang="en"
   body
     header
       .container
-        h1 Search for a GIF on Google
+        h1 Search for a GIF on
+        img src="/images/google.png"
+
 
     .search
       form action="http://google.com/search?" method="get"
         input type="hidden" name="tbm" value="isch"
         input type="hidden" name="tbs" value="itp:animated"
-        input type="text" name="q" autofocus=true
+        input type="text" name="q" autofocus=true id="search-term"
         input type="hidden" name="q" value="reaction"
-        input type="submit" value="search"
+        input type="submit" value="GIF it to me"
 
     footer
       p Absolutely nothing reserved.
