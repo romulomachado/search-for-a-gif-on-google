@@ -2,17 +2,20 @@ doctype html
 html lang="en"
   head
     meta charset="UTF-8"
-    title Search a Google GIF
+    title Search for a GIF on Google
     link href="css/styles.css" rel="stylesheet"
 
   body
     header
       .container
-        a href="/"
-          h1 search a google gif
+        h1 Search for a GIF on Google
 
     .search
-      input type="text" placeholder="Search a gif"
-      a href="#" Search!
+      form action="http://google.com/search?" method="get"
+        input type="hidden" name="tbm" value="isch"
+        input type="hidden" name="tbs" value="itp:animated"
+        input type="text" name="q"
+        input type="submit" value="search"
 
     footer
+      p Absolutamente nada reservado.
