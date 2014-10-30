@@ -4,10 +4,6 @@ body {
   padding: 0;
 }
 
-header {
-  /*background-color: #333;*/
-}
-
 header .container {
   margin: 0 auto;
   width: 40%;
@@ -56,4 +52,9 @@ footer {
 
 footer p {
   text-align: center;
+  color: #7f8c8d;
+}
+
+footer p a {
+  color: #95a5a6;
 }
