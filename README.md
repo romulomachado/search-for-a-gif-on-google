@@ -15,9 +15,9 @@ Usually, to search for a GIF on Google, we need to:
 
 And I believe that GIF searching should be simple and lightning fast.
 
-With `googlegifsearch.herokuapp.com` (soon to be `gifsearch.co`), you have to:
+With `gifsearch.co`, you have to:
 
-  - Go to `googlegifsearch.herokuapp.com`
+  - Go to `gifsearch.co`
   - Type in the search term
   - Find your gif
 
